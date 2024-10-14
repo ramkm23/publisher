@@ -903,7 +903,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #000;
+  background:$web-black;
   color:white;
   padding: 20px 0px;
   font-size: 14px;
@@ -1027,8 +1027,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 22px;
 }
 .footer-section {
-    background: #081e5b;
-    color: #c1bdbd;
+    background: $primary;
+    color: $web-white;
     padding: 20px 0px;
     clear:both;
 }
@@ -1041,6 +1041,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     color:white;
     font-family: fangsong;
     margin: 10px 0px;
+    font-size: 25px;
 }
 
 

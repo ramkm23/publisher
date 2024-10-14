@@ -2,7 +2,7 @@
     text-align: center;
     height: auto !important;
     position: relative !important;
-    padding: 20px 0 0px !important;
+    padding: 3px 0 0px !important;
     background-color: #f3d12852 !important;
     .vertical-header-logo
     {
@@ -24,5 +24,10 @@
         }
     }
 }
-
-
+@media(max-width:768px)
+{
+    .vertical-header-logo img {
+        max-height: 100% !important;
+        width: 100% !important;
+    }
+}

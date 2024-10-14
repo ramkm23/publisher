@@ -1098,8 +1098,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-section {
-  background: #081e5b;
-  color: #c1bdbd;
+  background: #af6203;
+  color: #FFFFFF;
   padding: 20px 0px;
   clear: both;
 }
@@ -1113,6 +1113,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: white;
   font-family: fangsong;
   margin: 10px 0px;
+  font-size: 25px;
 }
 
 .footcont p {
@@ -1393,7 +1394,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   height: auto !important;
   position: relative !important;
-  padding: 20px 0 0px !important;
+  padding: 3px 0 0px !important;
   background-color: rgba(243, 209, 40, 0.3215686275) !important;
 }
 .verticle-header .vertical-header-logo {
@@ -1413,4 +1414,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .verticle-header .vertical-header-menu .nav-menu > li li a {
   color: black;
+}
+
+@media (max-width: 768px) {
+  .vertical-header-logo img {
+    max-height: 100% !important;
+    width: 100% !important;
+  }
 }/*# sourceMappingURL=main-style.css.map */
