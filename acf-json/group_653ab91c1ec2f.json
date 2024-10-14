@@ -1163,7 +1163,7 @@
                                     "label": "Image",
                                     "name": "Backgrond-slider-image",
                                     "type": "image",
-                                    "instructions": "",
+                                    "instructions": "images should be 1440x520",
                                     "required": 0,
                                     "conditional_logic": 0,
                                     "wrapper": {
@@ -1174,13 +1174,13 @@
                                     "return_format": "array",
                                     "preview_size": "full",
                                     "library": "all",
-                                    "min_width": 1500,
-                                    "min_height": 500,
+                                    "min_width": 1440,
+                                    "min_height": 520,
                                     "min_size": "",
-                                    "max_width": 1500,
-                                    "max_height": 500,
+                                    "max_width": 1440,
+                                    "max_height": 520,
                                     "max_size": "",
-                                    "mime_types": ""
+                                    "mime_types": ",jpg"
                                 }
                             ]
                         }
@@ -1209,8 +1209,7 @@
     "label_placement": "top",
     "instruction_placement": "label",
     "hide_on_screen": "",
-    "active": true,
+    "active": 1,
     "description": "",
-    "show_in_rest": 0,
-    "modified": 1704214882
+    "modified": 1728816706
 }

@@ -1,6 +1,4 @@
-<div class="footer-section">
-    <?php get_template_part( 'template-parts/footer' );?>   
-</div>
+<?php get_template_part( 'template-parts/footer' );?>   
 <footer id="footer">
     <div class="container">
       <div class="copyright">
