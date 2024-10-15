@@ -1110,25 +1110,6 @@
                             "maxlength": ""
                         },
                         {
-                            "key": "field_670e9b30398d3",
-                            "label": "Text",
-                            "name": "background-image-slider-text",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": "",
-                            "maxlength": ""
-                        },
-                        {
                             "key": "field_65788c61f7888",
                             "label": "Primary button",
                             "name": "background-slider-primary-button",
@@ -1230,5 +1211,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1729010580
+    "modified": 1728816706
 }
