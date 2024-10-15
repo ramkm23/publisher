@@ -2,6 +2,12 @@
 <ul class="nav-menu">
     <li class="menu-active"><a href="<?php echo get_home_url(); ?>">Home</a></li>
     <li><a href="<?php echo get_home_url(); ?>/ablout">About Us</a></li>
+    <li class="menu-has-children"><a href="">For Authors</a>
+    <ul>
+        <li><a href="<?php echo get_home_url(); ?>/pricing">Pricing</a></li>
+        <li><a href="<?php echo get_home_url(); ?>/book-format">Book Format</a></li>
+        <li><a href="<?php echo get_home_url(); ?>/book-royality">Book Royality</a></li>
+    </ul>
     <li class="menu-has-children"><a href="#/ ">For Authors</a>
         <ul>
             <li><a href="<?php echo get_home_url(); ?>/pricing">Pricing</a></li>
