@@ -5,7 +5,7 @@
     <li class="menu-has-children"><a href="">For Authors</a>
     <ul>
         <li><a href="<?php echo get_home_url(); ?>/pricing">Pricing</a></li>
-        <li><a href="book-format">Book Format</a></li>
+        <li><a href="<?php echo get_home_url(); ?>/book-format">Book Format</a></li>
         <li><a href="<?php echo get_home_url(); ?>/book-royality">Book Royality</a></li>
     </ul>
     </li>
