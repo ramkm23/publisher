@@ -4,8 +4,8 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <?php if(!empty(get_sub_field('heading'))): ?>
-                    <h2 class="titleheading"><?php echo get_sub_field('heading'); ?></h2>
+                <?php if(!empty(get_sub_field('text-list-title'))): ?>
+                    <h2 class="titleheading"><?php echo get_sub_field('text-list-title'); ?></h2>
                 <?php endif; ?>
             </div>
                     
