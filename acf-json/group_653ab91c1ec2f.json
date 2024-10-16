@@ -871,7 +871,7 @@
                                     "label": "logo images",
                                     "name": "logo-images",
                                     "type": "image",
-                                    "instructions": "",
+                                    "instructions": "Image should be 200X80",
                                     "required": 0,
                                     "conditional_logic": 0,
                                     "wrapper": {
@@ -887,6 +887,123 @@
                                     "min_size": "",
                                     "max_width": 200,
                                     "max_height": 80,
+                                    "max_size": "",
+                                    "mime_types": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_671007d068e9b": {
+                    "key": "layout_671007d068e9b",
+                    "name": "image-slider",
+                    "label": "Image slider",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_671007d068e9c",
+                            "label": "Include image slider",
+                            "name": "include-image-slider",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Yes": "Yes",
+                                "No": "No"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "default_value": "",
+                            "layout": "horizontal",
+                            "return_format": "value",
+                            "save_other_choice": 0
+                        },
+                        {
+                            "key": "field_671007d068e9d",
+                            "label": "Heading",
+                            "name": "image-slider-heading",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_671007d068e9e",
+                            "label": "Text",
+                            "name": "client-slider-text",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_671007d068e9f",
+                            "label": "Images",
+                            "name": "Images",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "table",
+                            "button_label": "Add images",
+                            "sub_fields": [
+                                {
+                                    "key": "field_671007d068ea0",
+                                    "label": "image",
+                                    "name": "image",
+                                    "type": "image",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array",
+                                    "preview_size": "full",
+                                    "library": "all",
+                                    "min_width": "",
+                                    "min_height": "",
+                                    "min_size": "",
+                                    "max_width": "",
+                                    "max_height": "",
                                     "max_size": "",
                                     "mime_types": ""
                                 }
@@ -1631,5 +1748,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1729103321
+    "modified": 1729106716
 }
