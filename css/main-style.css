@@ -1163,9 +1163,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
 }
 #intro .intro-content {
-  background: rgba(255, 255, 255, 0.6509803922);
+  background: rgba(255, 255, 255, 0.48);
   border-radius: 10px;
-  margin: 22px auto !important;
+  margin: 44px auto !important;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1237,7 +1237,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #intro #intro-carousel::before {
   content: "";
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.2);
   position: absolute;
   height: 100%;
   width: 100%;
