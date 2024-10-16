@@ -107,6 +107,16 @@ body a:hover {
   border-radius: 4px;
 }
 
+.btn {
+  background: #af6203;
+  color: #FFFFFF;
+}
+
+.btn:hover {
+  background: #9c0202;
+  color: #FFFFFF;
+}
+
 /*
   Theme Name: Reveal
   Theme URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
@@ -1449,4 +1459,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #d3c165;
   bottom: 2px;
   margin-bottom: 0px;
+}
+
+.text-cta-box {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1294117647);
+}
+.text-cta-box h2, .text-cta-box p {
+  color: #af6203;
 }/*# sourceMappingURL=main-style.css.map */
