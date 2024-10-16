@@ -1335,6 +1335,117 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_670f89c9ee806": {
+                    "key": "layout_670f89c9ee806",
+                    "name": "text-cta-box",
+                    "label": "Text+CTA box",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_670f8db0045cc",
+                            "label": "Text cta box include",
+                            "name": "text-cta-box-include",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Yes": "Yes",
+                                "No": "No"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "default_value": "",
+                            "layout": "horizontal",
+                            "return_format": "value",
+                            "save_other_choice": 0
+                        },
+                        {
+                            "key": "field_670f8b00e6a99",
+                            "label": "Background Image",
+                            "name": "text-cta-box-background-image",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "full",
+                            "library": "all",
+                            "min_width": 1440,
+                            "min_height": 230,
+                            "min_size": "",
+                            "max_width": 1440,
+                            "max_height": 230,
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_670f89c9ee808",
+                            "label": "Heading",
+                            "name": "text-cta-box-heading",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_670f89c9ee809",
+                            "label": "Text",
+                            "name": "text-cta-box-text",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_670f89c9ee80a",
+                            "label": "Button",
+                            "name": "text-cta-box-button",
+                            "type": "link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array"
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Content",
@@ -1359,5 +1470,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1729065839
+    "modified": 1729072709
 }
