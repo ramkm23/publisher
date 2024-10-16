@@ -557,7 +557,7 @@
                         },
                         {
                             "key": "field_670fd9e683d0a",
-                            "label": "Column wise components items",
+                            "label": "Column items",
                             "name": "column-wise-components-items",
                             "type": "repeater",
                             "instructions": "",
@@ -600,7 +600,7 @@
                                 },
                                 {
                                     "key": "field_670fd9e683d0b",
-                                    "label": "Column wise components item heading",
+                                    "label": "Heading",
                                     "name": "column-wise-components-item-heading",
                                     "type": "text",
                                     "instructions": "",
@@ -1427,7 +1427,7 @@
                             "key": "field_670f453f1d28b",
                             "label": "Text",
                             "name": "background-image-slider-text",
-                            "type": "textarea",
+                            "type": "wysiwyg",
                             "instructions": "",
                             "required": 0,
                             "conditional_logic": 0,
@@ -1437,10 +1437,10 @@
                                 "id": ""
                             },
                             "default_value": "",
-                            "placeholder": "",
-                            "maxlength": "",
-                            "rows": "",
-                            "new_lines": ""
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
                         },
                         {
                             "key": "field_65788c61f7888",
@@ -1631,5 +1631,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1729093684
+    "modified": 1729101589
 }
