@@ -16,9 +16,9 @@
     background: url("../img/intro-carousel/1.jpg") no-repeat;
     background-size: cover;
     .intro-content {
-        background: #ffffffa6;
+        background: rgb(255 255 255 / 48%);
         border-radius: 10px;
-        margin: 22px auto !important;
+        margin: 44px auto !important;
         position: absolute;
         bottom: 0;
         top: 0;
@@ -91,7 +91,7 @@
     }
     #intro-carousel::before {
         content: '';
-        background-color: rgba(255, 255, 255, 0.5);
+        background-color: rgb(255 255 255 / 20%);
         position: absolute;
         height: 100%;
         width: 100%;
