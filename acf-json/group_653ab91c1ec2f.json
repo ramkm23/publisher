@@ -374,7 +374,7 @@
                             "sub_fields": [
                                 {
                                     "key": "field_653d8a4621f9e",
-                                    "label": "Service item heading",
+                                    "label": "Heading",
                                     "name": "service-item-heading",
                                     "type": "text",
                                     "instructions": "",
@@ -425,9 +425,9 @@
                                 },
                                 {
                                     "key": "field_653d8a6221f9f",
-                                    "label": "Service item text",
+                                    "label": "Text",
                                     "name": "service-item-text",
-                                    "type": "textarea",
+                                    "type": "wysiwyg",
                                     "instructions": "",
                                     "required": 0,
                                     "conditional_logic": 0,
@@ -437,10 +437,10 @@
                                         "id": ""
                                     },
                                     "default_value": "",
-                                    "placeholder": "",
-                                    "maxlength": "",
-                                    "rows": "",
-                                    "new_lines": ""
+                                    "tabs": "all",
+                                    "toolbar": "full",
+                                    "media_upload": 1,
+                                    "delay": 0
                                 },
                                 {
                                     "key": "field_653d8ce3add65",
@@ -621,7 +621,7 @@
                                     "key": "field_670fd9e683d0d",
                                     "label": "Text",
                                     "name": "column-wise-components item-text",
-                                    "type": "textarea",
+                                    "type": "wysiwyg",
                                     "instructions": "",
                                     "required": 0,
                                     "conditional_logic": 0,
@@ -631,10 +631,10 @@
                                         "id": ""
                                     },
                                     "default_value": "",
-                                    "placeholder": "",
-                                    "maxlength": "",
-                                    "rows": "",
-                                    "new_lines": ""
+                                    "tabs": "all",
+                                    "toolbar": "full",
+                                    "media_upload": 1,
+                                    "delay": 0
                                 },
                                 {
                                     "key": "field_670fd9e683d0e",
@@ -1631,5 +1631,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1729101589
+    "modified": 1729103321
 }

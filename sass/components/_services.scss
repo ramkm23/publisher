@@ -1,6 +1,16 @@
 
 #services {
     padding: 30px 0 0 0;
+    h2::before{
+        content: '';
+        position: absolute;
+        display: block;
+        width: 100px;
+        height: 3px;
+        background:$secondary;
+        bottom: 0;
+        left: 22px;
+    }
   }
   
   #services .box {
