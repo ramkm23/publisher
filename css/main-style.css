@@ -1578,4 +1578,34 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #image-slider .owl-dot.active {
   background-color: #50d8af;
+}
+
+.three-coloumn-components .box {
+  margin: 10px 0px;
+}
+.three-coloumn-components img {
+  width: 100%;
+}
+.three-coloumn-components .comptitle {
+  padding-bottom: 3px;
+  margin-bottom: 24px;
+}
+.three-coloumn-components h2 {
+  color: #af6203;
+}
+.three-coloumn-components h2 span {
+  position: relative;
+}
+.three-coloumn-components h2 span::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: #9c0202;
+  bottom: -5px;
+  left: 0;
+}
+.three-coloumn-components h3 {
+  margin: 15px 0px;
 }/*# sourceMappingURL=main-style.css.map */
