@@ -31,7 +31,7 @@
                      <?php echo get_sub_field('three-column-components-item-text'); ?>
                   </p>
                <?php endif; ?>
-               <?php if(get_sub_field('column-wise-components-item-button')) : ?>  
+               <?php if(get_sub_field('three-column-components-item-button')) : ?>  
                     <a href="<?php echo get_sub_field('three-column-components-item-button')['url']; ?>" target="<?php echo get_sub_field('three-column-components-item-button')['target']; ?>" class="btn"><?php echo get_sub_field('three-column-components-item-button')['title']; ?></a>
                 <?php endif; ?>
             </div>
