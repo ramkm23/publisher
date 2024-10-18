@@ -165,7 +165,7 @@ jQuery(document).ready(function ($) {
         items: 4
       },
       900: {
-        items: 6
+        items: 4
       }
     }
   });
