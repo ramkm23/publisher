@@ -1445,7 +1445,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.1294117647);
 }
-.text-cta-box h2, .text-cta-box p {
+.text-cta-box h2 {
   color: #af6203;
 }
 
