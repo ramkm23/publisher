@@ -128,7 +128,7 @@
                             "label": "Image",
                             "name": "image",
                             "type": "image",
-                            "instructions": "",
+                            "instructions": "Max size:  530x420px",
                             "required": 1,
                             "conditional_logic": 0,
                             "wrapper": {
@@ -340,6 +340,30 @@
                     "display": "row",
                     "sub_fields": [
                         {
+                            "key": "field_653d8b23159a8",
+                            "label": "Include Services",
+                            "name": "include-services",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Yes": "Yes",
+                                "No": "No"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "default_value": "",
+                            "layout": "horizontal",
+                            "return_format": "value",
+                            "save_other_choice": 0
+                        },
+                        {
                             "key": "field_653d85ff21f98",
                             "label": "Heading",
                             "name": "services-heading",
@@ -482,30 +506,6 @@
                                     "return_format": "array"
                                 }
                             ]
-                        },
-                        {
-                            "key": "field_653d8b23159a8",
-                            "label": "Include Services",
-                            "name": "include-services",
-                            "type": "radio",
-                            "instructions": "",
-                            "required": 1,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "Yes": "Yes",
-                                "No": "No"
-                            },
-                            "allow_null": 0,
-                            "other_choice": 0,
-                            "default_value": "",
-                            "layout": "horizontal",
-                            "return_format": "value",
-                            "save_other_choice": 0
                         }
                     ],
                     "min": "",
@@ -1957,5 +1957,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1729274506
+    "modified": 1729285907
 }
