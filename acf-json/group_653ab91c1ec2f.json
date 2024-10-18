@@ -1080,7 +1080,7 @@
                                     "label": "logo images",
                                     "name": "logo-images",
                                     "type": "image",
-                                    "instructions": "Image should be 200X80",
+                                    "instructions": "",
                                     "required": 0,
                                     "conditional_logic": 0,
                                     "wrapper": {
@@ -1094,7 +1094,7 @@
                                     "min_width": "",
                                     "min_height": "",
                                     "min_size": "",
-                                    "max_width": 200,
+                                    "max_width": "",
                                     "max_height": "",
                                     "max_size": "",
                                     "mime_types": ""
@@ -1957,5 +1957,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1729273077
+    "modified": 1729274506
 }
