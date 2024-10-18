@@ -1365,6 +1365,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #clients .owl-dot.active {
   background-color: #50d8af;
 }
+#clients p {
+  margin-top: 20px;
+}
 
 .footcont p {
   font-size: 15px;
