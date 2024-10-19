@@ -944,6 +944,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0px 0px 8px;
 }
 
+@media (max-width: 768px) {
+  ::before {
+    width: auto !important;
+  }
+  .text-section {
+    padding: 0px 20px;
+  }
+}
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
