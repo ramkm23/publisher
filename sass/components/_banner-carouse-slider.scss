@@ -7,6 +7,12 @@
         width: 60%;
     }
 }
+@media (max-width:768px)
+{
+    #intro .intro-content {
+        padding: 0px 20px;
+    }  
+}
 #intro {
     padding: 0px;
     margin: 0px auto;
