@@ -949,7 +949,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: auto !important;
   }
   .text-section {
-    padding: 0px 20px;
+    padding: 20px;
   }
 }
 /*--------------------------------------------------------------
@@ -958,6 +958,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (min-width: 768px) {
   #intro .intro-content {
     width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  #intro .intro-content {
+    padding: 0px 20px;
   }
 }
 #intro {
