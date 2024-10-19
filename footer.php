@@ -2,7 +2,7 @@
 <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Creative Webs </strong>. All Rights Reserved
+        &copy; Copyright 2024 <strong>Informatics Books & Journals </strong>. All Rights Reserved
       </div>
     </div>
   </footer><!-- #footer -->
