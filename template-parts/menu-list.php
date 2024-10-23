@@ -16,7 +16,7 @@
             <!--<li><a href="<?php echo get_home_url(); ?>/ebooks">E-Books</a></li> -->
         </ul>
     </li> 
-    <li class="menu-has-children"><a href="#">IBJ Journals</a>
+    <li class="menu-has-children"><a href="<?php echo get_home_url(); ?>/ibj-journals/">IBJ Journals</a>
         <!--<ul>
             <li><a href="<?php echo get_home_url(); ?>/educational-books">Educational Books</a></li>
             <li><a href="<?php echo get_home_url(); ?>/conference-proceedings">Conference Proceedings</a></li>
