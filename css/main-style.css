@@ -1434,6 +1434,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .three-coloumn-components h3 {
   margin: 15px 0px;
 }
+.three-coloumn-components .btn {
+  margin: 20px 0px;
+}
 
 /* Contact Section
 --------------------------------*/
