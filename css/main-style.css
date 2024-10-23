@@ -977,7 +977,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .intro-content {
   background: rgba(255, 255, 255, 0.48);
   border-radius: 10px;
-  margin: 44px auto !important;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1068,6 +1067,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition-property: opacity;
 }
 
+@media (min-width: 768px) {
+  .intro-content {
+    margin: 44px auto !important;
+  }
+}
 .bloglistpage img {
   width: 100%;
   height: auto;

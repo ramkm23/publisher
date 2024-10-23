@@ -24,7 +24,6 @@
     .intro-content {
         background: rgb(255 255 255 / 48%);
         border-radius: 10px;
-        margin: 44px auto !important;
         position: absolute;
         bottom: 0;
         top: 0;
@@ -114,5 +113,12 @@
         background-position: center;
         background-repeat: no-repeat;
         transition-property: opacity;
+    }
+}
+
+@media (min-width:768px)
+{
+    .intro-content {
+        margin: 44px auto !important;
     }
 }
