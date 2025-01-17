@@ -5,8 +5,8 @@
  
     <header id="header">
         <div class="container">
-            <div id="logo" class="pull-left">
-            <h1><a href="<?php echo get_home_url(); ?>" class="scrollto"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/C%20logo.png"></a></h1>
+            <div id="logo" class="horizontaleader pull-left">
+            <h1><a href="<?php echo get_home_url(); ?>" class="scrollto"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/ibj-logonew.png"></a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
             </div>
