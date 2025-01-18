@@ -511,7 +511,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   vertical-align: middle;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 3px 0px;
+  margin: 10px 0px;
+  border: 2px solid #ad6103;
+  background-color: #FFFFFF;
+  transition: 0.3s;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+#portfolio h2 {
+  margin-bottom: 20px;
 }
 
 #portfolio .portfolio-item h2 {
@@ -540,6 +549,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-item:hover .portfolio-overlay {
   opacity: 1;
   background: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  font-size: 17px;
 }
 
 #portfolio .portfolio-info {

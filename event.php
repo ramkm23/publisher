@@ -2,21 +2,19 @@
     /*Template Name: Event */
     
 ?>
- 
-    <header id="header">
-        <div class="container">
-            <div id="logo" class="horizontaleader pull-left">
-            <h1><a href="<?php echo get_home_url(); ?>" class="scrollto"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/ibj-logonew.png"></a></h1>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
-            </div>
-            <nav id="nav-menu-container">
-                <?php get_template_part( 'template-parts/menu-list' );?>
-            </nav><!-- #nav-menu-container -->
-        </div>
-    </header>
- 
 
+<header id="header">
+    <div class="container">
+        <div id="logo" class="horizontaleader pull-left">
+        <h1><a href="<?php echo get_home_url(); ?>" class="scrollto"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/ibj-logonew.png"></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
+        </div>
+        <nav id="nav-menu-container">
+            <?php get_template_part( 'template-parts/menu-list' );?>
+        </nav><!-- #nav-menu-container -->
+    </div>
+</header>
 
 <?php wp_head(); ?>
 <!-- Get Basic Content Template -->
