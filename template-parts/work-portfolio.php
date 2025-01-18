@@ -18,9 +18,9 @@
                 <div class="col-lg-3 col-md-4">
                     <div class="portfolio-item wow fadeInUp">     
                     <a href="<?php echo get_sub_field( 'work-portfolio-full-image' )[ 'url' ]; ?>" class="portfolio-popup">  
-                    <img src="<?php echo get_sub_field( 'work-portfolio-thumbnail' )[ 'url' ]; ?>" class="clientlogo" alt="<?php echo get_sub_field( 'work-portfolio-thumbnail' )[ 'alt' ]; ?>">
+                    <img src="<?php echo get_sub_field( 'work-portfolio-full-image' )[ 'url' ]; ?>" class="portfoliothumbnail" alt="<?php echo get_sub_field( 'work-portfolio-thumbnail' )[ 'alt' ]; ?>">
                         <div class="portfolio-overlay">
-                        <div class="portfolio-info"><h2 class="wow fadeInUp"><i class="fa fa-eye"></i></h2></div>
+                        <div class="portfolio-info"><p class="wow fadeInUp"><i class="fa fa-eye"></i></p></div>
                         </div>
                     </a>
                     </div>

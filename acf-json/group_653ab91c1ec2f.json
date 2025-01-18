@@ -1487,30 +1487,6 @@
                             "button_label": "Add work portfolio",
                             "sub_fields": [
                                 {
-                                    "key": "field_6574d00f7c587",
-                                    "label": "Thumbnail",
-                                    "name": "work-portfolio-thumbnail",
-                                    "type": "image",
-                                    "instructions": "",
-                                    "required": 0,
-                                    "conditional_logic": 0,
-                                    "wrapper": {
-                                        "width": "",
-                                        "class": "",
-                                        "id": ""
-                                    },
-                                    "return_format": "array",
-                                    "preview_size": "full",
-                                    "library": "all",
-                                    "min_width": 578,
-                                    "min_height": 600,
-                                    "min_size": "",
-                                    "max_width": 578,
-                                    "max_height": 600,
-                                    "max_size": "",
-                                    "mime_types": ""
-                                },
-                                {
                                     "key": "field_6574d1107c588",
                                     "label": "Full image",
                                     "name": "work-portfolio-full-image",
@@ -1531,7 +1507,7 @@
                                     "min_size": "",
                                     "max_width": "",
                                     "max_height": "",
-                                    "max_size": "",
+                                    "max_size": 1,
                                     "mime_types": ""
                                 }
                             ]
@@ -2141,5 +2117,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1737045098
+    "modified": 1737184849
 }
