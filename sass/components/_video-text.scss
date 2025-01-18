@@ -1,0 +1,14 @@
+ 
+
+ @media(max-width:768px)
+ {
+    .video-text {
+        .float-right {
+            float: none !important;
+            margin: 0px !important;
+        }
+        iframe {
+            width: 100%;
+        }
+     }
+ }
