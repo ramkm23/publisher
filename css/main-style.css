@@ -1656,3 +1656,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content ul li {
   padding-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+  .video-text .float-right {
+    float: none !important;
+    margin: 0px !important;
+  }
+  .video-text iframe {
+    width: 100%;
+  }
+}
