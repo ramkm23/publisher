@@ -963,6 +963,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 20px;
   }
 }
+section#shadow-host-companion {
+  display: none;
+}
+
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
@@ -1664,5 +1668,35 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   .video-text iframe {
     width: 100%;
+  }
+}
+#contdown-section {
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #af6203;
+  color: #FFFFFF;
+}
+#contdown-section .countdown {
+  display: inline-flex;
+  font-size: 24px;
+  text-align: center;
+  margin: 0px auto;
+  font-weight: bold;
+  padding: 20px 0px;
+  border-radius: 8px;
+}
+#contdown-section .countdown .countdown-item {
+  margin: 0 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: #000;
+  color: #FFFFFF;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .countdown-item {
+    padding: 10px !important;
+    font-size: 20px !important;
   }
 }

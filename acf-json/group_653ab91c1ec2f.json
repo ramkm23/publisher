@@ -2216,6 +2216,78 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_67952e24eeac4": {
+                    "key": "layout_67952e24eeac4",
+                    "name": "count-down",
+                    "label": "Count Down",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_67952e24eeac5",
+                            "label": "Count down include",
+                            "name": "count-down-include",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Yes": "Yes",
+                                "No": "No"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "default_value": "",
+                            "layout": "horizontal",
+                            "return_format": "value",
+                            "save_other_choice": 0
+                        },
+                        {
+                            "key": "field_67952e24eeac6",
+                            "label": "Heading",
+                            "name": "count-down-heading",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_67954d283f0d2",
+                            "label": "Text",
+                            "name": "count-down-text",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Content",
@@ -2247,5 +2319,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1737230653
+    "modified": 1737838942
 }
