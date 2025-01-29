@@ -1700,3 +1700,30 @@ section#shadow-host-companion {
     font-size: 20px !important;
   }
 }
+.two-col-text-form-details {
+  display: grid;
+  vertical-align: middle;
+  align-items: center;
+  text-align: center;
+  background-color: #af6203;
+  color: #FFFFFF;
+}
+.two-col-text-form-details .formicon i {
+  font-size: 70px;
+}
+
+.colcontact-form {
+  padding: 20px;
+  background-color: #FFFFFF;
+}
+.colcontact-form button, .colcontact-form input, .colcontact-form optgroup, .colcontact-form select, .colcontact-form textarea {
+  width: 100%;
+  margin: 10px 0px;
+  padding: 5px;
+}
+@media (min-width: 768px) {
+  .colcontact-form .wpcf7-submit {
+    width: 30% !important;
+    margin: 0px auto !important;
+  }
+}
