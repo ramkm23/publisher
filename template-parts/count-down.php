@@ -34,7 +34,7 @@
                 </div>
                 <!--  end -->
                 <script >
-                    const countdownDate = new Date("1 30, 2025 00:00:00").getTime();
+                    const countdownDate = new Date("2 10, 2025 12:00:00").getTime();
 
                     const updateCountdown = () => {
                         const now = new Date().getTime();
