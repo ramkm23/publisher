@@ -1737,6 +1737,97 @@
                     "min": "",
                     "max": ""
                 },
+                "layout_6795619eb23e1": {
+                    "key": "layout_6795619eb23e1",
+                    "name": "two-col-text-contact-form",
+                    "label": "Two col text contact form",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_6795619eb23e2",
+                            "label": "Include form",
+                            "name": "include-two-col-text-form",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Yes": "Yes",
+                                "No": "No"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "default_value": "",
+                            "layout": "horizontal",
+                            "return_format": "value",
+                            "save_other_choice": 0
+                        },
+                        {
+                            "key": "field_6795619eb23e3",
+                            "label": "Heading",
+                            "name": "two-col-text-form-heading",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_6795619eb23e4",
+                            "label": "Text",
+                            "name": "two-col-text-form-text",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_6795619eb23e5",
+                            "label": "Form shortcode",
+                            "name": "two-col-text-form-shortcode",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
                 "layout_6591bd605ea60": {
                     "key": "layout_6591bd605ea60",
                     "name": "full-width-blogs",
@@ -2319,5 +2410,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1737838942
+    "modified": 1737844683
 }

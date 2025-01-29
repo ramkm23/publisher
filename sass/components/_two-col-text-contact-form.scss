@@ -1,0 +1,29 @@
+.two-col-text-form-details {
+    display: grid;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+    background-color:$primary;
+    color: $web-white;
+    .formicon i{
+        font-size:70px;
+    }
+} 
+
+.colcontact-form {
+    padding:20px;
+    background-color: $web-white;
+    button, input, optgroup, select, textarea {
+        width: 100%;
+        margin: 10px 0px;
+        padding: 5px;
+    }
+    @media(min-width:768px)
+    {
+        .wpcf7-submit {
+            width: 30% !important;
+            margin: 0px auto !important;
+        }
+    }
+
+}
