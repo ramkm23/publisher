@@ -727,7 +727,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #testimonials .owl-nav,
 #testimonials .owl-dots {
-  margin-top: 5px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -1177,6 +1177,7 @@ section#shadow-host-companion {
 }
 #clients h2 {
   color: #FFFFFF;
+  margin-bottom: 30px;
 }
 #clients img {
   max-width: 90%;
@@ -1193,7 +1194,7 @@ section#shadow-host-companion {
   border: 2px solid #9c0202;
 }
 #clients .owl-nav, #clients .owl-dots {
-  margin-top: 5px;
+  margin-top: 20px;
   text-align: center;
 }
 #clients .owl-dot {
