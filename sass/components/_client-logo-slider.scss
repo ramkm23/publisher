@@ -8,6 +8,7 @@
     color: $web-white;
     h2 {
         color: $web-white;
+        margin-bottom: 30px;
     }
     img {
         max-width: 90%;
@@ -24,7 +25,7 @@
         border: 2px solid $secondary;
     }
     .owl-nav, .owl-dots {
-        margin-top: 5px;
+        margin-top: 20px;
         text-align: center;
     }
     .owl-dot {
