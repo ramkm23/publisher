@@ -6,7 +6,15 @@
     background-color:$primary;
     color: $web-white;
     .formicon i{
-        font-size:70px;
+        font-size:70px;      
+    }
+    .two-col-text-fdetails {
+        a {
+            color: $web-white;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     }
 } 
 

@@ -1711,6 +1711,12 @@ section#shadow-host-companion {
 .two-col-text-form-details .formicon i {
   font-size: 70px;
 }
+.two-col-text-form-details .two-col-text-fdetails a {
+  color: #FFFFFF;
+}
+.two-col-text-form-details .two-col-text-fdetails a:hover {
+  text-decoration: underline;
+}
 
 .colcontact-form {
   padding: 20px;
