@@ -10,26 +10,34 @@
                     <p><?php echo get_sub_field('count-down-text'); ?></p>
                 <?php endif; ?>
             </div>
-            <div class ="col-sm-12">
+            <div class ="col-sm-counter col-sm-12">
                 <!-- Start Count + Down -->
-                <div class="countdown">
+                <div class="countdown row">
 
-                    <div  class="countdown-item">
-                        <div id="days"></div>
-                        <div class="days">Days</div> 
+                    <div  class="countdown-item col-sm-3">
+                        <div class="counter-sec-background">
+                            <div id="days"></div>
+                            <div class="days">Days</div> 
+                        </div>
                     </div>
 
-                    <div  class="countdown-item">
-                        <div id="hours"></div>
-                        <div class="hours">Hours</div> 
+                    <div  class="countdown-item col-sm-3">
+                        <div class="counter-sec-background">
+                            <div id="hours"></div>
+                            <div class="hours">Hours</div> 
+                        </div>
                     </div>  
-                    <div  class="countdown-item">
-                        <div id="minutes"></div>
-                        <div class="minutes">Minutes</div> 
+                    <div  class="countdown-item col-sm-3">
+                        <div class="counter-sec-background">
+                            <div id="minutes"></div>
+                            <div class="minutes">Minutes</div> 
+                        </div>
                     </div> 
-                    <div class="countdown-item">
-                        <div id="seconds"></div>
-                        <div class="seconds">Seconds</div>
+                    <div class="countdown-item col-sm-3">
+                        <div class="counter-sec-background">
+                            <div id="seconds"></div>
+                            <div class="seconds">Seconds</div>
+                        </div>
                     </div> 
                 </div>
                 <!--  end -->
@@ -64,7 +72,5 @@
             </div>
         </div>
     </div>
-</section>
-
- 
+</section> 
 <?php endif; ?>

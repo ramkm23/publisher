@@ -1049,7 +1049,7 @@
                             "key": "field_678933886fcdc",
                             "label": "Text",
                             "name": "four-column-components-text",
-                            "type": "wysiwyg",
+                            "type": "textarea",
                             "instructions": "",
                             "required": 0,
                             "conditional_logic": 0,
@@ -1059,10 +1059,10 @@
                                 "id": ""
                             },
                             "default_value": "",
-                            "tabs": "all",
-                            "toolbar": "full",
-                            "media_upload": 1,
-                            "delay": 0
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
                         },
                         {
                             "key": "field_678933886fcdd",
@@ -1137,7 +1137,7 @@
                                     "key": "field_678933886fce0",
                                     "label": "Text",
                                     "name": "four-column-components-item-text",
-                                    "type": "wysiwyg",
+                                    "type": "textarea",
                                     "instructions": "",
                                     "required": 0,
                                     "conditional_logic": 0,
@@ -1147,10 +1147,10 @@
                                         "id": ""
                                     },
                                     "default_value": "",
-                                    "tabs": "all",
-                                    "toolbar": "full",
-                                    "media_upload": 1,
-                                    "delay": 0
+                                    "placeholder": "",
+                                    "maxlength": "",
+                                    "rows": "",
+                                    "new_lines": ""
                                 },
                                 {
                                     "key": "field_678933886fce1",
@@ -2410,5 +2410,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1737844683
+    "modified": 1738434444
 }

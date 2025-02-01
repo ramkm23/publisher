@@ -7,13 +7,12 @@
       <div class="row"> 
          <div class="col-sm-12">
                <div class="comptitle">
-                  <h2><?php if(!empty(get_sub_field('four-column-components-heading'))): ?>
-                  <span><?php echo get_sub_field('four-column-components-heading'); ?></span>
-                  <?php endif; ?>
-                  </h2>
-                  <p><?php if(!empty(get_sub_field('four-column-components-text'))): ?>
-                  <?php echo get_sub_field('four-column-components-text'); ?>
-                  <?php endif; ?></p>
+               <?php if(!empty(get_sub_field('four-column-components-heading'))): ?>
+                        <h2><?php echo get_sub_field('four-column-components-heading'); ?></h2>
+               <?php endif; ?>
+               <?php if(!empty(get_sub_field('four-column-components-text'))): ?>
+                        <p><?php echo get_sub_field('four-column-components-text'); ?></p>
+               <?php endif; ?>              
                </div>
          </div>
          <?php if(have_rows('four-column-components-items')):?>

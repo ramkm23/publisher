@@ -1677,8 +1677,11 @@ section#shadow-host-companion {
   background-color: #af6203;
   color: #FFFFFF;
 }
-#contdown-section .countdown {
-  display: inline-flex;
+#contdown-section .col-sm-counter {
+  max-width: 66%;
+  margin: 0px auto;
+}
+#contdown-section .col-sm-counter .countdown {
   font-size: 24px;
   text-align: center;
   margin: 0px auto;
@@ -1686,13 +1689,12 @@ section#shadow-host-companion {
   padding: 20px 0px;
   border-radius: 8px;
 }
-#contdown-section .countdown .countdown-item {
-  margin: 0 10px;
-  padding: 20px;
+#contdown-section .col-sm-counter .countdown .counter-sec-background {
   text-align: center;
   background-color: #000;
   color: #FFFFFF;
   border-radius: 4px;
+  padding: 20px 20px;
 }
 
 @media (max-width: 768px) {
@@ -1733,4 +1735,8 @@ section#shadow-host-companion {
     width: 30% !important;
     margin: 0px auto !important;
   }
+}
+
+.four-coloumn-components h3 {
+  margin: 20px 0px 5px;
 }
