@@ -1740,3 +1740,6 @@ section#shadow-host-companion {
 .four-coloumn-components h3 {
   margin: 20px 0px 5px;
 }
+.four-coloumn-components .comptitle h2 {
+  margin-bottom: 30px;
+}
