@@ -1743,3 +1743,7 @@ section#shadow-host-companion {
 .four-coloumn-components .comptitle h2 {
   margin-bottom: 30px;
 }
+.four-coloumn-components img {
+  border-radius: 10px;
+  border: 2px solid #af6203;
+}
