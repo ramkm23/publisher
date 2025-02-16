@@ -1632,12 +1632,12 @@
                                     "return_format": "array",
                                     "preview_size": "full",
                                     "library": "all",
-                                    "min_width": "",
-                                    "min_height": "",
-                                    "min_size": "",
-                                    "max_width": "",
-                                    "max_height": "",
-                                    "max_size": 1,
+                                    "min_width": 251,
+                                    "min_height": 167,
+                                    "min_size": ".50",
+                                    "max_width": 251,
+                                    "max_height": 167,
+                                    "max_size": ".50",
                                     "mime_types": ""
                                 }
                             ]
@@ -2410,5 +2410,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1739086813
+    "modified": 1739724459
 }
