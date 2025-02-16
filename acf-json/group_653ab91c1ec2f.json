@@ -741,7 +741,7 @@
                                     "label": "Images",
                                     "name": "service-item-image",
                                     "type": "image",
-                                    "instructions": "",
+                                    "instructions": "540x428",
                                     "required": 0,
                                     "conditional_logic": 0,
                                     "wrapper": {
@@ -752,12 +752,12 @@
                                     "return_format": "array",
                                     "preview_size": "full",
                                     "library": "all",
-                                    "min_width": "",
-                                    "min_height": "",
+                                    "min_width": 540,
+                                    "min_height": 428,
                                     "min_size": "",
-                                    "max_width": "",
-                                    "max_height": "",
-                                    "max_size": "",
+                                    "max_width": 540,
+                                    "max_height": 428,
+                                    "max_size": ".25",
                                     "mime_types": ""
                                 },
                                 {
@@ -1515,12 +1515,12 @@
                                     "return_format": "array",
                                     "preview_size": "full",
                                     "library": "all",
-                                    "min_width": "",
-                                    "min_height": "",
+                                    "min_width": 333,
+                                    "min_height": 514,
                                     "min_size": "",
-                                    "max_width": "",
-                                    "max_height": "",
-                                    "max_size": "",
+                                    "max_width": 333,
+                                    "max_height": 514,
+                                    "max_size": ".25",
                                     "mime_types": ""
                                 }
                             ]
@@ -2410,5 +2410,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1738434444
+    "modified": 1739086813
 }
