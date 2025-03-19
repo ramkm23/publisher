@@ -32,6 +32,9 @@
                      <?php echo get_sub_field('service-item-text'); ?>
                   </p>
                <?php endif; ?>
+               <?php if(get_sub_field('button')) : ?>  
+                  <a href="<?php echo get_sub_field('button')['url']; ?>" target="<?php echo get_sub_field('button')['target']; ?>" class="btn"><?php echo get_sub_field('button')['title']; ?></a>
+               <?php endif; ?>
             </div>
          </div>
          <?php endwhile; ?>
