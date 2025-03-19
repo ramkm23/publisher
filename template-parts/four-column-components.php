@@ -8,7 +8,7 @@
          <div class="col-sm-12">
                <div class="comptitle">
                <?php if(!empty(get_sub_field('four-column-components-heading'))): ?>
-                        <h2 class><?php echo get_sub_field('four-column-components-heading'); ?></h2>
+                        <h2 class="text-center"><?php echo get_sub_field('four-column-components-heading'); ?></h2>
                <?php endif; ?>
                <?php if(!empty(get_sub_field('four-column-components-text'))): ?>
                         <p><?php echo get_sub_field('four-column-components-text'); ?></p>
