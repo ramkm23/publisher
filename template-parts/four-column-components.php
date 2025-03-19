@@ -8,7 +8,7 @@
          <div class="col-sm-12">
                <div class="comptitle">
                <?php if(!empty(get_sub_field('four-column-components-heading'))): ?>
-                        <h2><?php echo get_sub_field('four-column-components-heading'); ?></h2>
+                        <h2 class><?php echo get_sub_field('four-column-components-heading'); ?></h2>
                <?php endif; ?>
                <?php if(!empty(get_sub_field('four-column-components-text'))): ?>
                         <p><?php echo get_sub_field('four-column-components-text'); ?></p>
@@ -19,9 +19,11 @@
          <?php while(have_rows('four-column-components-items')): the_row(); ?>
          <div class="col-lg-3">
             <div class="box wow fadeInLeft">
+            <?php if(!empty(get_sub_field('four-column-components-item-image'))): ?>
                <div class="image">
                   <img src="<?php echo get_sub_field( 'four-column-components-item-image' )[ 'url' ]; ?>" class="text-images igure-img img-fluid"   alt="<?php echo get_sub_field( 'three-column-components-item-image' )[ 'alt' ]; ?>">         
                </div>
+               <?php endif; ?>
                <?php if(!empty(get_sub_field('four-column-components-item-heading'))): ?>
                   <h3 class="title"><?php echo get_sub_field('four-column-components-item-heading'); ?></h3>
                <?php endif; ?>
