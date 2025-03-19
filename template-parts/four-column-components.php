@@ -15,7 +15,7 @@
                <?php endif; ?>              
                </div>
          </div>
-         <?php if(have_rows('four-column-components-items')):?>
+         <?php if(have_rows('four-column-components-items')):?> 
          <?php while(have_rows('four-column-components-items')): the_row(); ?>
          <div class="col-lg-3">
             <div class="box wow fadeInLeft">
