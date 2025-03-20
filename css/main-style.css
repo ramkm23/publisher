@@ -1590,7 +1590,7 @@ section#shadow-host-companion {
   }
 }
 .background-ovelay {
-  background: linear-gradient(75deg, rgba(54, 86, 116, 0.5882352941), rgba(166, 173, 29, 0.3490196078)), rgba(54, 86, 116, 0.5882352941) center center/cover no-repeat scroll;
+  background: linear-gradient(75deg, rgba(179, 120, 67, 0.54), rgba(214, 131, 35, 0.43)), rgba(54, 86, 116, 0.36) center center/cover no-repeat scroll;
   position: absolute;
   width: 100%;
   top: 0px;

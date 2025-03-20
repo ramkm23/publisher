@@ -1,6 +1,6 @@
 <?php if( get_sub_field( 'include-form' ) == 'Yes' ) :?>
 <!-- contact form 7 -->
-<section id="contact" class="wow fadeInUp parallex-img" style="background-image: url('https://creativewebstech.com/img/back.jpg')">
+<section id="contact" class="wow fadeInUp parallex-img" style="background-image: url('http://ibjpublishers.com/wp-content/uploads/2025/03/contact-form.jpg')">
     <div class="background-ovelay"></div>
     <div class="container">
         <div class="row justify-content-center">
