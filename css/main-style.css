@@ -1459,7 +1459,19 @@ section#shadow-host-companion {
   left: 0;
 }
 .three-coloumn-components h3 {
-  margin: 15px 0px;
+  padding-top: 20px;
+}
+.three-coloumn-components p {
+  margin: 0px;
+}
+.three-coloumn-components .itembackground {
+  background: #af6203;
+  color: #FFFFFF;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.three-coloumn-components .itembackground .btn {
+  border: 2px solid white !important;
 }
 .three-coloumn-components .btn {
   margin: 20px 0px;
@@ -1738,12 +1750,21 @@ section#shadow-host-companion {
 }
 
 .four-coloumn-components h3 {
-  margin: 20px 0px 5px;
+  padding: 20px 0px 5px;
 }
 .four-coloumn-components .comptitle h2 {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 .four-coloumn-components img {
-  border-radius: 10px;
   border: 2px solid #af6203;
+}
+.four-coloumn-components .itembackground {
+  background: #af6203;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.four-coloumn-components .itembackground .btn {
+  border: 2px solid white !important;
 }

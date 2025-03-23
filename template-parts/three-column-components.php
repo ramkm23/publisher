@@ -23,17 +23,26 @@
                <div class="image">
                <img src="<?php echo get_sub_field( 'three-column-components-item-image' )[ 'url' ]; ?>" class="text-images igure-img img-fluid"   alt="<?php echo get_sub_field( 'three-column-components-item-image' )[ 'alt' ]; ?>">         
                </div>
-               <?php if(!empty(get_sub_field('three-column-components-item-heading'))): ?>
-                  <h3 class="title"><?php echo get_sub_field('three-column-components-item-heading'); ?></h3>
-               <?php endif; ?>
-               <?php if(!empty(get_sub_field('three-column-components-item-text'))): ?>
-                  <p class="description">
-                     <?php echo get_sub_field('three-column-components-item-text'); ?>
-                  </p>
-               <?php endif; ?>
-               <?php if(get_sub_field('three-column-components-item-button')) : ?>  
-                    <a href="<?php echo get_sub_field('three-column-components-item-button')['url']; ?>" target="<?php echo get_sub_field('three-column-components-item-button')['target']; ?>" class="btn"><?php echo get_sub_field('three-column-components-item-button')['title']; ?></a>
-                <?php endif; ?>
+               <div class="
+                  <?php if (get_sub_field( 'three-column-item-background-color' ) == 'Dark' ):
+                     echo 'itembackground';
+                  else :
+                     echo 'bg-white';
+                  endif;
+                  ?> ">
+
+                  <?php if(!empty(get_sub_field('three-column-components-item-heading'))): ?>
+                     <h3 class="title"><?php echo get_sub_field('three-column-components-item-heading'); ?></h3>
+                  <?php endif; ?>
+                  <?php if(!empty(get_sub_field('three-column-components-item-text'))): ?>
+                     
+                        <?php echo get_sub_field('three-column-components-item-text'); ?>
+                    
+                  <?php endif; ?>
+                  <?php if(get_sub_field('three-column-components-item-button')) : ?>  
+                     <a href="<?php echo get_sub_field('three-column-components-item-button')['url']; ?>" target="<?php echo get_sub_field('three-column-components-item-button')['target']; ?>" class="btn"><?php echo get_sub_field('three-column-components-item-button')['title']; ?></a>
+                  <?php endif; ?>
+               </div> 
             </div>
          </div>
          <?php endwhile; ?>

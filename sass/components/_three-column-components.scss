@@ -27,10 +27,23 @@
             left: 0;
         }
     }
-     
     h3 {
-        margin: 15px 0px;
+        padding-top:20px;
     }
+    p {
+        margin: 0px;
+    }
+
+    .itembackground {
+        background: $primary;
+        color:$web-white;
+        padding-left: 10px;
+        padding-right: 10px;
+        .btn {
+            border: 2px solid white !important;
+        }
+    }
+
    .btn {
         margin: 20px 0px;
     }
