@@ -1,12 +1,21 @@
 .four-coloumn-components {
     h3 {
-        margin: 20px 0px 5px;
+        padding: 20px 0px 5px;
     }
     .comptitle h2 {
-        margin-bottom: 30px;
+        padding-bottom: 30px;
     }
     img {
-        border-radius: 10px;
         border: 2px solid $primary;
+    }
+    .itembackground {
+        background: $primary;
+        color:$web-white;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        .btn {
+            border: 2px solid white !important;
+        }
     }
 }

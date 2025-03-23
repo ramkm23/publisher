@@ -989,6 +989,30 @@
                                         "id": ""
                                     },
                                     "return_format": "array"
+                                },
+                                {
+                                    "key": "field_67dfe1021ecfd",
+                                    "label": "Three column item background color",
+                                    "name": "three-column-item-background-color",
+                                    "type": "radio",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "choices": {
+                                        "White": "White",
+                                        "Dark": "Dark"
+                                    },
+                                    "allow_null": 0,
+                                    "other_choice": 0,
+                                    "default_value": "",
+                                    "layout": "horizontal",
+                                    "return_format": "value",
+                                    "save_other_choice": 0
                                 }
                             ]
                         }
@@ -1018,6 +1042,30 @@
                             "choices": {
                                 "Yes": "Yes",
                                 "No": "No"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "default_value": "",
+                            "layout": "horizontal",
+                            "return_format": "value",
+                            "save_other_choice": 0
+                        },
+                        {
+                            "key": "field_67ddab77862f3",
+                            "label": "Background color",
+                            "name": "four-column-background-color",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "White": "White",
+                                "Gray": "Gray"
                             },
                             "allow_null": 0,
                             "other_choice": 0,
@@ -1090,6 +1138,30 @@
                             "layout": "row",
                             "button_label": "",
                             "sub_fields": [
+                                {
+                                    "key": "field_67dec8e853889",
+                                    "label": "Item background color",
+                                    "name": "four-column-item-background-color",
+                                    "type": "radio",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "choices": {
+                                        "White": "White",
+                                        "Dark": "Dark"
+                                    },
+                                    "allow_null": 0,
+                                    "other_choice": 0,
+                                    "default_value": "",
+                                    "layout": "horizontal",
+                                    "return_format": "value",
+                                    "save_other_choice": 0
+                                },
                                 {
                                     "key": "field_678933886fcde",
                                     "label": "Images",
@@ -2069,6 +2141,30 @@
                                     "new_lines": ""
                                 }
                             ]
+                        },
+                        {
+                            "key": "field_67debc084050d",
+                            "label": "Testimonial Type",
+                            "name": "testimonial-type",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Normal": "Normal",
+                                "Slider": "Slider"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "default_value": "",
+                            "layout": "horizontal",
+                            "return_format": "value",
+                            "save_other_choice": 0
                         }
                     ],
                     "min": "",
@@ -2410,5 +2506,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1740072694
+    "modified": 1742725449
 }
