@@ -34,10 +34,10 @@
          <?php while(have_rows('four-column-components-items')): the_row(); ?>
          <div class="col-lg-3">
             <div class="box wow fadeInLeft">
-            <?php if(!empty(get_sub_field('four-column-components-item-image'))): ?>
-               <div class="image">
-                  <img src="<?php echo get_sub_field( 'four-column-components-item-image' )[ 'url' ]; ?>" class="text-images igure-img img-fluid"   alt="<?php echo get_sub_field( 'three-column-components-item-image' )[ 'alt' ]; ?>">         
-               </div>
+               <?php if(!empty(get_sub_field('four-column-components-item-image'))): ?>
+                  <div class="image">
+                     <img src="<?php echo get_sub_field( 'four-column-components-item-image' )[ 'url' ]; ?>" class="text-images igure-img img-fluid"   alt="<?php echo get_sub_field( 'three-column-components-item-image' )[ 'alt' ]; ?>">         
+                  </div>
                <?php endif; ?>
                <div class="
                   <?php if (get_sub_field( 'four-column-item-background-color' ) == 'Dark' ):
